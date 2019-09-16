@@ -72,4 +72,12 @@
       <IncludeInPackage>true</IncludeInPackage>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="Readme.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="README.md">
+      <IncludeInPackage>true</IncludeInPackage>
+    </Content>
+  </ItemGroup>
 </Project>
