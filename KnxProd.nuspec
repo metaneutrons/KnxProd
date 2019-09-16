@@ -11,8 +11,8 @@
     <iconUrl>https://github.com/metaneutrons/KnxProd/tree/master/docs/images/knxprod-icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
-    <copyright>Copyright 2019</copyright>
+    <releaseNotes>Initial Release.</releaseNotes>
+    <copyright>Copyright 2019 thelsing, metaneutrons</copyright>
     <tags>KNX XML</tags>
   </metadata>
 </package>

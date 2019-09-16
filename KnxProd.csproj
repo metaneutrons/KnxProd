@@ -15,6 +15,7 @@
     <PackageReference Include="Xamarin.Forms" Version="4.2.0.778463" />
     <PackageReference Include="System.ComponentModel" Version="4.3.0" />
     <PackageReference Include="System.ComponentModel.Annotations" Version="4.5.0" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="4.5.1" />
   </ItemGroup>
   <ItemGroup>
     <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="knxprod.cs">
@@ -74,6 +75,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="Readme.md" />
+    <None Remove="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="README.md">
