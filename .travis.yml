@@ -2,4 +2,4 @@
 dotnet: 2.2.402
 script:
   - dotnet restore
-  - dotnet run
+  - dotnet build
