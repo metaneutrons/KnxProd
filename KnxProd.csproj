@@ -1,0 +1,75 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <SynchReleaseVersion>false</SynchReleaseVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Extensions\" />
+    <Folder Include="knxprod-examples\" />
+    <Folder Include="Converter\" />
+    <Folder Include="Model\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="4.2.0.778463" />
+    <PackageReference Include="System.ComponentModel" Version="4.3.0" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.5.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="knxprod.cs">
+      <IncludeInPackage>true</IncludeInPackage>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Model\ComObjectRefRef_t.cs">
+      <IncludeInPackage>true</IncludeInPackage>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Model\ComObjectRef_t.cs">
+      <IncludeInPackage>true</IncludeInPackage>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Model\IGetByteSize.cs">
+      <IncludeInPackage>true</IncludeInPackage>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Model\Parameter_t.cs">
+      <IncludeInPackage>true</IncludeInPackage>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Model\ParameterRef_t.cs">
+      <IncludeInPackage>true</IncludeInPackage>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Model\ParameterRefRef_t.cs">
+      <IncludeInPackage>true</IncludeInPackage>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Model\ParameterType_t.cs">
+      <IncludeInPackage>true</IncludeInPackage>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Model\ParameterType_tTypeFloat.cs">
+      <IncludeInPackage>true</IncludeInPackage>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Model\ParameterType_tTypeNumber.cs">
+      <IncludeInPackage>true</IncludeInPackage>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Model\ParameterType_tTypeRestriction.cs">
+      <IncludeInPackage>true</IncludeInPackage>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Model\ParameterType_tTypeText.cs">
+      <IncludeInPackage>true</IncludeInPackage>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Model\ParameterTypeType.cs">
+      <IncludeInPackage>true</IncludeInPackage>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Model\Xml.Project.cs">
+      <IncludeInPackage>true</IncludeInPackage>
+    </Compile>
+    <Compile Update="Extensions\Extensions.cs">
+      <IncludeInPackage>true</IncludeInPackage>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Converter\EnableTBoolTypeConverter.cs">
+      <IncludeInPackage>true</IncludeInPackage>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Converter\EnumDescriptionTypeConverter.cs">
+      <IncludeInPackage>true</IncludeInPackage>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="KnxProd.cs">
+      <IncludeInPackage>true</IncludeInPackage>
+    </Compile>
+  </ItemGroup>
+</Project>
