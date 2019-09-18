@@ -3,9 +3,11 @@
 /* KnxProd.cs
  *
  * Author:
- *     Fabian Schmieder <github@schmieder.eu>
+ *     
+ *     thelsing
+ *     metaneutrons <github@schmieder.eu>
  *
- * Copyright(c) 2019 Fabian Schmieder
+ * Copyright(c) 2019 thelsing, metaneutrons
  * 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
