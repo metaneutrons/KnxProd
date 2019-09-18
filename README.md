@@ -6,11 +6,11 @@ Have a look at my implementation of a commandline tool for [mknx](https://github
 
 The library depends on external DLLs for the final creation (and signing) of the .knxprod file. There are two options for that:
 
-###Option 1: Install ETS4
+### Option 1: Install ETS4
 
 Install [KNX ETS4](https://knxcloud.org/index.php/s/NM7nG0yHtu7PoJO). The library will use the Dlls located at *C:\Program Files (x86)\ETS4* by default. If you have installed ETS4 elsewhere you can point the library to the path using the property *KnxProd.Ets4DllPath*.
 
-###Option 2: Copy necessary Dlls
+### Option 2: Copy necessary Dlls
 
 You can also copy the necessary Dlls out of an installed [KNX ETS4](https://knxcloud.org/index.php/s/NM7nG0yHtu7PoJO). You need:
 
