@@ -14,6 +14,8 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="4.2.0.778463" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.6.0-rc1.19456.4" />
+    <PackageReference Include="System.ComponentModel" Version="4.3.0" />
   </ItemGroup>
   <ItemGroup>
     <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="knxprod.cs">
