@@ -1,5 +1,5 @@
 
-# KnxProd ![](https://travis-ci.com/metaneutrons/KnxProd.svg?branch=master)
+# KnxProd [![Build Status](https://travis-ci.com/metaneutrons/KnxProd.svg?branch=master)](https://travis-ci.com/metaneutrons/KnxProd)
 
 .NET Core 3.0 library for creating and editing KNX ETS XML and .knxprod files. This project heavily borrows code from thelsing's [CreateKnxProd](https://github.com/thelsing/CreateKnxProd).
 
