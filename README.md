@@ -3,9 +3,9 @@
 
 .NET Core 3.0 library for creating and editing KNX ETS XML and .knxprod files. This project heavily borrows code from thelsing's [CreateKnxProd](https://github.com/thelsing/CreateKnxProd).
 
-Have a look at my implementation of a commandline tool for [mknx](https://github.com/metaneutrons/mknx) for an example how to use KnxProd library.
+Have a look at my implementation of a commandline tool [mknx](https://github.com/metaneutrons/mknx) for an example how to use KnxProd library.
 
-The library depends on external DLLs for the final creation (and signing) of the .knxprod file. There are two options for that:
+The library depends on external DLLs for the final creation (and signing) of the .knxprod file. There are two options:
 
 ### Option 1: Install ETS4
 
