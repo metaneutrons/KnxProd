@@ -1,9 +1,9 @@
-﻿/* SPDX-License-Identifier: GPL-3.0  */
+﻿/* SPDX-License-Identifier: GPL-3.0-or-later  */
 
 /* KnxProd.cs
  *
  * Author:
- *     
+ *
  *     thelsing
  *     metaneutrons <github@schmieder.eu>
  *

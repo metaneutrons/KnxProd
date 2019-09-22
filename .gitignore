@@ -1,4 +1,5 @@
-bin
-obj
-knxprod-examples
+bin/
+obj/
+knxprod-examples/
 .DS_Store
+*.nupkg
