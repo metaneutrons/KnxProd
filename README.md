@@ -5,6 +5,10 @@
 
 Have a look at my implementation of a commandline tool [mknx](https://github.com/metaneutrons/mknx) for an example how to use KnxProd library.
 
+If you encouter errors concerning encoding, register an EncodingProvider with
+
+    Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+
 The library depends on external DLLs for the final creation (and signing) of the .knxprod file. There are two options:
 
 ### Option 1: Install ETS4
@@ -15,12 +19,12 @@ Install [KNX ETS4](https://knxcloud.org/index.php/s/NM7nG0yHtu7PoJO). The librar
 
 You can also copy the necessary Dlls out of an installed [KNX ETS4](https://knxcloud.org/index.php/s/NM7nG0yHtu7PoJO). You need:
 
-        Knx.Ets.Converter.ConverterEngine.dll
-        Knx.Ets.Converter.RegistrationRelevanceInformation.dll
-        Knx.Ets.DynamicData.dll
-        Knx.Ets.Xml.ObjectModel.dll
-        Knx.Ets.Xml.ObjectModel.XmlSerializers.dll
-        log4net.dll
-        Ionic.Zip.dll
+    Knx.Ets.Converter.ConverterEngine.dll
+    Knx.Ets.Converter.RegistrationRelevanceInformation.dll
+    Knx.Ets.DynamicData.dll
+    Knx.Ets.Xml.ObjectModel.dll
+    Knx.Ets.Xml.ObjectModel.XmlSerializers.dll
+    log4net.dll
+    Ionic.Zip.dll
 
 You have to point the library to the path of the Dlls by setting the property *KnxProd.Ets4DllPath*.
