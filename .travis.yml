@@ -8,8 +8,8 @@ sudo: required
 
 language: csharp
 mono: none
-# dotnet: 3.0.100-rc1-014190
+dotnet: 3.0.100
 script:
-  - sudo snap alias dotnet-sdk.dotnet dotnet
+#  - sudo snap alias dotnet-sdk.dotnet dotnet // needed only for dot net preview versions, if used comment out dotnet:
   - dotnet restore
   - dotnet build
